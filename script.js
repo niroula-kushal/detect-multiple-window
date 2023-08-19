@@ -20,7 +20,7 @@ const LeaveMeAlone = (onAnotherTabAlreadyOpen, onNewTabOpen = null) => {
     broadCast.postMessage(ANNOUNCEMENT_BOARDCAST);
 };
 LeaveMeAlone(() => {
-    alert("Are you sure you want to open a new window?");
+    alert("Use the previous tab!");
     imageElem.src = "https://c.tenor.com/pb06GKyRor0AAAAd/justin-timberlake-stare.gif";
     document.title = "LOL.........";
 });
